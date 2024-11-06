@@ -12,10 +12,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false, // Menyembunyikan banner debug
-      title: 'GetX App',                 // Nama aplikasi
-      initialRoute: '/',                // Rute awal (halaman login)
-      getPages: AppRoutes.routes,       // Daftar rute yang didefinisikan di routes.dart
+      debugShowCheckedModeBanner: false, 
+      title: 'GetX App',                 
+      initialRoute: '/',                
+      getPages: AppRoutes.routes,       
     );
   }
 }

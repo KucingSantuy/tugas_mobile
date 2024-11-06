@@ -4,7 +4,7 @@ class LoginController extends GetxController {
   var isLogged = false.obs;
 
   void login(String username, String password) {
-    if (username == 'H1D022060' && password == '12345') {
+    if (username == 'H1D022056' && password == '12345') {
       isLogged.value = true;
       Get.offAllNamed('/home');
     } else {
